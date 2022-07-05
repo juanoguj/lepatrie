@@ -1,0 +1,151 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  box-sizing: border-box;
+}
+
+body header #logo {
+  font-weight: bolder;
+}
+body header #navbar {
+  background-color: white;
+}
+
+.img-index {
+  width: 100%;
+  padding-top: 10vh;
+}
+
+#btnProductoAleatorio {
+  background-color: white;
+  border-style: none;
+  font-family: Montserrat, sans-serif;
+  width: 100%;
+  font-size: x-small;
+}
+#btnProductoAleatorio:hover {
+  color: blue;
+  border-style: none;
+}
+
+.imgProyecto {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 100vw;
+}
+
+.card {
+  border: 1px solid;
+}
+
+a img:last-child {
+  display: none;
+}
+
+a:hover img:last-child {
+  display: block;
+}
+
+a:hover img:first-child {
+  display: none;
+}
+
+#barato {
+  opacity: 25%;
+}
+#barato:hover {
+  opacity: 100%;
+}
+
+#caro {
+  opacity: 25%;
+}
+#caro:hover {
+  opacity: 100%;
+}
+
+#r-a {
+  opacity: 25%;
+}
+#r-a:hover {
+  opacity: 100%;
+}
+
+#carro-txt {
+  position: fixed;
+  right: 0%;
+  bottom: 5%;
+}
+#carro-txt h1 {
+  background-color: white;
+  padding-left: 10px;
+}
+#carro-txt h5 {
+  background-color: white;
+  padding-left: 10px;
+}
+#carro-txt p {
+  background-color: white;
+  padding-left: 10px;
+}
+#carro-txt #btnCarro {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: white;
+  border-style: none;
+}
+
+#carro-container {
+  margin-top: 10%;
+}
+
+#btnEliminar {
+  position: absolute;
+  right: 15%;
+  top: 10%;
+}
+
+@media (min-width: 768px) {
+  .img-index {
+    max-width: 100rem;
+  }
+
+  .imgProyecto {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+  }
+
+  .imgBarro:hover {
+    filter: invert(1);
+  }
+
+  .imgPresente:hover {
+    filter: invert(1);
+  }
+
+  .imgLiquido:hover {
+    filter: invert(1);
+  }
+
+  .imgPrueba:hover {
+    filter: invert(1);
+  }
+
+  .imgJean:hover {
+    filter: invert(1);
+  }
+
+  #carro-txt {
+    position: fixed;
+    right: 5%;
+    bottom: 45%;
+  }
+
+  #btnEliminar {
+    position: absolute;
+    right: 30%;
+    top: 5%;
+  }
+}/*# sourceMappingURL=main.css.map */
