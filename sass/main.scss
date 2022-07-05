@@ -89,16 +89,25 @@ a:hover img:first-child {
     h1 {
         background-color: white;
         padding-left: 10px;
+        padding-right: 10px;
+        display: table;
+        border-radius: 5px;
     }
 
     h5 {
         background-color: white;
         padding-left: 10px;
+        padding-right: 10px;
+        display: table;
+        border-radius: 5px;
     }
 
     p {
         background-color: white;
         padding-left: 10px;
+        padding-right: 10px;
+        display: table;
+        border-radius: 5px;
     }
 
     #btnCarro {
@@ -106,7 +115,47 @@ a:hover img:first-child {
         padding-right: 10px;
         background-color: white;
         border-style: none;
+        border-radius: 5px;
     }
+}
+
+#prueba2 {
+    position: fixed;
+    margin-top: 40%;
+
+    h1 {
+        background-color: white;
+        border-radius: 5px;
+        display: table;
+        padding: 0px 10px 0px 10px;
+    }
+
+    p {
+        background-color: white;
+        border-radius: 5px;
+        display: table;
+        padding: 0px 10px 0px 10px;
+    }
+}
+
+.imgBarro:hover {
+    filter: invert(1);
+}
+
+.imgPresente:hover {
+    filter: invert(1);
+}
+
+.imgLiquido:hover {
+    filter: invert(1);
+}
+
+.imgPrueba:hover {
+    filter: invert(1);
+}
+
+.imgJean:hover {
+    filter: invert(1);
 }
 
 #carro-container {
@@ -133,7 +182,6 @@ a:hover img:first-child {
 
     .imgBarro:hover {
         filter: invert(1);
-
     }
 
     .imgPresente:hover {
@@ -162,5 +210,10 @@ a:hover img:first-child {
         position: absolute;
         right: 30%;
         top: 5%
+    }
+
+    #prueba2 {
+        position: relative;
+        margin-top: 10%;
     }
 }
