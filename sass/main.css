@@ -7,26 +7,22 @@
 
 body header #logo {
   font-weight: bolder;
+  position: relative;
 }
 body header #navbar {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
+  border-bottom: 1px solid;
 }
 
 .img-index {
   width: 100%;
-  padding-top: 10vh;
+  padding-top: 30vh;
 }
 
-#btnProductoAleatorio {
-  background-color: white;
-  border-style: none;
-  font-family: Montserrat, sans-serif;
-  width: 100%;
-  font-size: x-small;
-}
-#btnProductoAleatorio:hover {
-  color: blue;
-  border-style: none;
+#footerIndex {
+  position: fixed;
+  font-size: 0.6em;
+  bottom: -3%;
 }
 
 .imgProyecto {
@@ -56,6 +52,7 @@ a:hover img:first-child {
   top: 92%;
   left: 5%;
   background-color: white;
+  font-size: 0.8em;
 }
 
 #barato {
@@ -161,8 +158,19 @@ a:hover img:first-child {
 }
 
 @media (min-width: 768px) {
+  #icon {
+    position: relative;
+  }
+
   .img-index {
     max-width: 100rem;
+    padding-top: 30%;
+  }
+
+  #footerIndex {
+    position: fixed;
+    font-size: 0.8em;
+    bottom: -3%;
   }
 
   .imgProyecto {
@@ -191,6 +199,10 @@ a:hover img:first-child {
     filter: invert(1);
   }
 
+  #cardsShop {
+    margin-top: 5%;
+  }
+
   #carro-txt {
     position: fixed;
     right: 5%;
@@ -210,6 +222,8 @@ a:hover img:first-child {
 
   #filtros {
     position: relative;
+    left: 0%;
+    font-size: 1em;
   }
   #filtros #barato {
     opacity: 25%;
