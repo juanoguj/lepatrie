@@ -51,22 +51,29 @@ a:hover img:first-child {
   display: none;
 }
 
+#filtros {
+  position: fixed;
+  top: 92%;
+  left: 5%;
+  background-color: white;
+}
+
 #barato {
-  opacity: 25%;
+  opacity: 100%;
 }
 #barato:hover {
   opacity: 100%;
 }
 
 #caro {
-  opacity: 25%;
+  opacity: 100%;
 }
 #caro:hover {
   opacity: 100%;
 }
 
 #r-a {
-  opacity: 25%;
+  opacity: 100%;
 }
 #r-a:hover {
   opacity: 100%;
@@ -199,5 +206,27 @@ a:hover img:first-child {
   #prueba2 {
     position: relative;
     margin-top: 10%;
+  }
+
+  #filtros {
+    position: relative;
+  }
+  #filtros #barato {
+    opacity: 25%;
+  }
+  #filtros #barato:hover {
+    opacity: 100%;
+  }
+  #filtros #caro {
+    opacity: 25%;
+  }
+  #filtros #caro:hover {
+    opacity: 100%;
+  }
+  #filtros #r-a {
+    opacity: 25%;
+  }
+  #filtros #r-a:hover {
+    opacity: 100%;
   }
 }/*# sourceMappingURL=main.css.map */
