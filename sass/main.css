@@ -21,7 +21,7 @@ body header #navbar {
 
 #footerIndex {
   position: fixed;
-  font-size: 0.6em;
+  font-size: 0.4em;
   bottom: -3%;
 }
 
@@ -120,9 +120,13 @@ a:hover img:first-child {
   font-size: small;
 }
 
+#prueba1 {
+  margin-top: 80%;
+}
+
 #prueba2 {
   position: fixed;
-  margin-top: 40%;
+  margin-top: 15%;
 }
 #prueba2 h1 {
   background-color: white;
@@ -151,28 +155,20 @@ a:hover img:first-child {
   font-size: small;
 }
 
+#modalMedidas p {
+  text-align: center;
+}
+
+#modalCompra p {
+  text-align: center;
+}
+
+#modalCheckout p {
+  text-align: center;
+}
+
 #proyectos {
   padding-top: 10%;
-}
-
-.imgBarro:hover {
-  filter: invert(1);
-}
-
-.imgPresente:hover {
-  filter: invert(1);
-}
-
-.imgLiquido:hover {
-  filter: invert(1);
-}
-
-.imgPrueba:hover {
-  filter: invert(1);
-}
-
-.imgJean:hover {
-  filter: invert(1);
 }
 
 #carro-container {
@@ -183,6 +179,12 @@ a:hover img:first-child {
   position: absolute;
   right: 15%;
   top: 10%;
+}
+
+#underConstruction {
+  position: absolute;
+  top: 50vh;
+  left: 50vw;
 }
 
 @media (min-width: 768px) {
@@ -197,7 +199,7 @@ a:hover img:first-child {
 
   #footerIndex {
     position: fixed;
-    font-size: 0.8em;
+    font-size: 0.6em;
     bottom: -3%;
   }
 
@@ -275,6 +277,10 @@ a:hover img:first-child {
     position: absolute;
     right: 30%;
     top: 5%;
+  }
+
+  #prueba1 {
+    margin-top: 7%;
   }
 
   #prueba2 {

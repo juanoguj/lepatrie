@@ -1,6 +1,5 @@
 imagenes = [
     "blazer.jpg",
-    "bolsa.jpg",
     "camisa.jpg",
     "chaleca.jpg",
     "guantes.jpg",
