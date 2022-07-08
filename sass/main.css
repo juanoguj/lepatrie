@@ -50,7 +50,6 @@ a:hover img:first-child {
 #filtros {
   position: fixed;
   top: 92%;
-  background-color: white;
   font-size: 0.8em;
 }
 
@@ -61,6 +60,9 @@ a:hover img:first-child {
   padding: 6px 10px 6px 10px;
   margin: 2px;
 }
+#barato:hover {
+  background-color: white;
+}
 
 #caro {
   opacity: 100%;
@@ -69,6 +71,9 @@ a:hover img:first-child {
   padding: 6px 10px 6px 10px;
   margin: 2px;
 }
+#caro:hover {
+  background-color: white;
+}
 
 #r-a {
   opacity: 100%;
@@ -76,6 +81,9 @@ a:hover img:first-child {
   border-radius: 5px;
   padding: 6px 10px 6px 10px;
   margin: 2px;
+}
+#r-a:hover {
+  background-color: white;
 }
 
 #carro-txt {
