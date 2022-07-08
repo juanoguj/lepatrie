@@ -50,64 +50,66 @@ a:hover img:first-child {
 #filtros {
   position: fixed;
   top: 92%;
-  left: 5%;
   background-color: white;
   font-size: 0.8em;
 }
 
 #barato {
   opacity: 100%;
-}
-#barato:hover {
-  opacity: 100%;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 6px 10px 6px 10px;
+  margin: 2px;
 }
 
 #caro {
   opacity: 100%;
-}
-#caro:hover {
-  opacity: 100%;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 6px 10px 6px 10px;
+  margin: 2px;
 }
 
 #r-a {
   opacity: 100%;
-}
-#r-a:hover {
-  opacity: 100%;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 6px 10px 6px 10px;
+  margin: 2px;
 }
 
 #carro-txt {
   position: fixed;
   right: 0%;
   bottom: 5%;
+  font-size: 0.7em;
 }
 #carro-txt h1 {
   background-color: white;
-  padding-left: 10px;
-  padding-right: 10px;
+  color: black;
+  border: 1px solid;
+  padding: 6px 10px 6px 10px;
   display: table;
   border-radius: 5px;
 }
 #carro-txt h5 {
   background-color: white;
-  padding-left: 10px;
-  padding-right: 10px;
+  color: black;
+  border: 1px solid;
+  padding: 6px 10px 6px 10px;
   display: table;
   border-radius: 5px;
 }
 #carro-txt p {
-  background-color: white;
   padding-left: 10px;
   padding-right: 10px;
   display: table;
   border-radius: 5px;
 }
 #carro-txt #btnCarro {
-  padding-left: 10px;
-  padding-right: 10px;
   background-color: white;
-  border-style: none;
-  border-radius: 5px;
+  color: black;
+  font-size: small;
 }
 
 #prueba2 {
@@ -116,15 +118,33 @@ a:hover img:first-child {
 }
 #prueba2 h1 {
   background-color: white;
+  color: black;
+  border: 1px solid;
   border-radius: 5px;
   display: table;
-  padding: 0px 10px 0px 10px;
+  padding: 6px 10px 6px 10px;
 }
 #prueba2 p {
   background-color: white;
+  color: black;
+  border: 1px solid;
   border-radius: 5px;
   display: table;
-  padding: 0px 10px 0px 10px;
+  padding: 6px 10px 6px 10px;
+}
+#prueba2 #btnComprarInfo {
+  background-color: white;
+  color: black;
+  font-size: small;
+}
+#prueba2 #btnMedidasInfo {
+  background-color: white;
+  color: black;
+  font-size: small;
+}
+
+#proyectos {
+  padding-top: 10%;
 }
 
 .imgBarro:hover {
@@ -199,6 +219,10 @@ a:hover img:first-child {
     filter: invert(1);
   }
 
+  #proyectos {
+    padding-top: 0%;
+  }
+
   #cardsShop {
     margin-top: 5%;
   }
@@ -207,6 +231,36 @@ a:hover img:first-child {
     position: fixed;
     right: 5%;
     bottom: 45%;
+  }
+  #carro-txt h1 {
+    background-color: white;
+    border: none;
+    padding: 6px 10px 6px 10px;
+    display: table;
+    border-radius: 5px;
+  }
+  #carro-txt h5 {
+    background-color: white;
+    border: none;
+    padding: 6px 10px 6px 10px;
+    display: table;
+    border-radius: 5px;
+  }
+  #carro-txt p {
+    padding-left: 10px;
+    padding-right: 10px;
+    display: table;
+    border-radius: 5px;
+  }
+  #carro-txt #btnComprarInfo {
+    background-color: black;
+    color: white;
+    font-size: small;
+  }
+  #carro-txt #btnMedidasInfo {
+    background-color: black;
+    color: white;
+    font-size: small;
   }
 
   #btnEliminar {
@@ -219,6 +273,20 @@ a:hover img:first-child {
     position: relative;
     margin-top: 10%;
   }
+  #prueba2 h1 {
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    display: table;
+    padding: 6px 10px 6px 10px;
+  }
+  #prueba2 p {
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    display: table;
+    padding: 6px 10px 6px 10px;
+  }
 
   #filtros {
     position: relative;
@@ -227,18 +295,21 @@ a:hover img:first-child {
   }
   #filtros #barato {
     opacity: 25%;
+    border: none;
   }
   #filtros #barato:hover {
     opacity: 100%;
   }
   #filtros #caro {
     opacity: 25%;
+    border: none;
   }
   #filtros #caro:hover {
     opacity: 100%;
   }
   #filtros #r-a {
     opacity: 25%;
+    border: none;
   }
   #filtros #r-a:hover {
     opacity: 100%;
