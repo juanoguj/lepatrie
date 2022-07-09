@@ -28,6 +28,10 @@ body {
     position: fixed;
     font-size: 0.4em;
     bottom: -3%;
+    padding: 10px;
+    &:hover {
+        font-size: 0.8em;
+    }
 }
 
 .imgProyecto {
@@ -172,19 +176,19 @@ a:hover img:first-child {
 }
 
 #modalMedidas {
-    p{
+    p {
         text-align: center;
     }
 }
 
 #modalCompra {
-    p{
+    p {
         text-align: center;
     }
 }
 
 #modalCheckout {
-    p{
+    p {
         text-align: center;
     }
 }
@@ -203,7 +207,7 @@ a:hover img:first-child {
     top: 10%
 }
 
-#underConstruction{
+#underConstruction {
     position: absolute;
     top: 50vh;
     left: 50vw;
@@ -223,7 +227,11 @@ a:hover img:first-child {
     #footerIndex {
         position: fixed;
         font-size: 0.6em;
-        bottom: -3%
+        bottom: -3%;
+        padding: 10px;
+        &:hover {
+            font-size: 1.2em;
+        }
     }
 
     .imgProyecto {

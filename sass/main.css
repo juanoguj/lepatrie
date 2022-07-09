@@ -23,6 +23,10 @@ body header #navbar {
   position: fixed;
   font-size: 0.4em;
   bottom: -3%;
+  padding: 10px;
+}
+#footerIndex:hover {
+  font-size: 0.8em;
 }
 
 .imgProyecto {
@@ -201,6 +205,10 @@ a:hover img:first-child {
     position: fixed;
     font-size: 0.6em;
     bottom: -3%;
+    padding: 10px;
+  }
+  #footerIndex:hover {
+    font-size: 1.2em;
   }
 
   .imgProyecto {
